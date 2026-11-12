@@ -45,6 +45,6 @@ export default function ContactSection() {
       </div>
       <p className="mt-4 font-display text-sm">VYPERION RACING © 2026 · Colégio SESI Cascavel — PR</p>
       <p className="mt-1 text-cyan font-display text-xs">{tagline}</p>
-      <p className="mt-4 text-xs text-muted">{t(ui.credits)} <SecretCredit name="Andrey" /></p>
+      <p className="mt-4 text-xs text-muted"><SecretCredit>{t(ui.credits)} Andrey</SecretCredit></p>
     </footer></>);
 }

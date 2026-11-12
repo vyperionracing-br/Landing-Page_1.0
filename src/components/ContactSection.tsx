@@ -4,6 +4,7 @@ import { Instagram, Mail } from "lucide-react";
 import Section from "./Section";
 import Img from "./Img";
 import LogoTile from "./LogoTile";
+import SecretCredit from "./SecretCredit";
 import { useLang } from "./LanguageProvider";
 import { links, partners, ui, tagline } from "@/data/content";
 import { images, partnerLogos } from "@/data/images";
@@ -44,5 +45,6 @@ export default function ContactSection() {
       </div>
       <p className="mt-4 font-display text-sm">VYPERION RACING © 2026 · Colégio SESI Cascavel — PR</p>
       <p className="mt-1 text-cyan font-display text-xs">{tagline}</p>
+      <p className="mt-4 text-xs text-muted">{t(ui.credits)} <SecretCredit name="Andrey" /></p>
     </footer></>);
 }
